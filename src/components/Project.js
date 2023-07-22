@@ -21,11 +21,13 @@ function Project() {
           heading="Kattie"
           image={proKattie}
           text="Implemented CRUD features"
+          githuburl="https://github.com/celine-zhang/Kattie-Catmmunity"
         />
         <ProjectData
           heading="Todo List"
           image={proTodo}
           text="Implemented CRUD features"
+          githuburl="https://github.com/celine-zhang/WebDeveloper-todolist"
         />
       </div>
     </div>
