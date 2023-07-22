@@ -19,3 +19,9 @@
 .grid-item i {
   color: grey;
 }
+
+@media screen and (max-width: 850px) {
+  .al-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

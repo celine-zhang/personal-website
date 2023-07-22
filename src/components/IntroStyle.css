@@ -45,3 +45,12 @@ a:hover {
 .email {
   margin-top: 10px;
 }
+
+@media screen and (max-width: 850px) {
+  .intro-detail {
+    flex-direction: column;
+  }
+  .profile-image-container {
+    margin-bottom: 20px;
+  }
+}

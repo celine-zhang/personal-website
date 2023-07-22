@@ -1,5 +1,7 @@
 .education-timeline {
   position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .education-item {
@@ -11,7 +13,7 @@
 .education-item::before {
   content: attr(data-year);
   position: absolute;
-  top: -0.8rem;
+  top: 0.5rem;
   left: 320px;
   width: 10rem;
   height: 2rem;
@@ -22,14 +24,13 @@
   align-items: center;
   border-radius: 10px;
 }
-
 .education-item::after {
   content: "";
   position: absolute;
   top: 10px;
   left: 404px;
   width: 1px;
-  height: 100%;
+  height: 110%;
   background-color: grey;
 }
 
@@ -38,7 +39,26 @@
   margin-bottom: 20px;
 }
 
-.experience-body {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+@media screen and (max-width: 1400px) {
+  .education-timeline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .education-item {
+    font-size: 0.5rem;
+  }
+
+  .education-item::before {
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%); /* 通过偏移来水平居中 */
+  }
+
+  .education-item::after {
+    display: none;
+  }
+  .education-item h4,
+  .education-item h5 {
+    font-size: 1rem;
+  }
 }

@@ -2,6 +2,7 @@ import ProjectData from "./ProjectData";
 import "./ProjectStyle.css";
 import proYelp from "../assets/yelp.jpeg";
 import proKattie from "../assets/kattie.jpeg";
+import proTodo from "../assets/todolist.jpeg";
 
 function Project() {
   return (
@@ -23,7 +24,7 @@ function Project() {
         />
         <ProjectData
           heading="Todo List"
-          image={proKattie}
+          image={proTodo}
           text="Implemented CRUD features"
         />
       </div>

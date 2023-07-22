@@ -17,7 +17,9 @@ function Intro() {
             Looking forward to positions as Front-end Developer or Back-end
             Developer.
           </div>
-          <div className="location">Location: Boston MA</div>
+          <div className="location">
+            <i class="fa-solid fa-location-dot"></i> Boston, MA
+          </div>
 
           <div className="email">
             <i className="fa-regular fa-envelope"></i>
@@ -39,8 +41,10 @@ function Intro() {
               https://www.linkedin.com/in/xz715/
             </a>
           </div>
+          <div>
+            <DownloadResumeButton />
+          </div>
         </div>
-        <DownloadResumeButton />
       </div>
     </div>
   );
