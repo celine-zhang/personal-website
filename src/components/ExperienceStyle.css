@@ -1,0 +1,44 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.experience-card {
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 5px 25px 2px rgba(0, 0, 0, 0.11);
+}
+
+.company-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.company-info,
+.job-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.company-location,
+.job-duration {
+  font-size: 1rem;
+}
+
+.job-position {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.job-description {
+  list-style: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+  font-size: 0.9rem;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+.education-timeline {
+  position: relative;
+}
+
+.education-item {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+
+.education-item::before {
+  content: attr(data-year);
+  position: absolute;
+  top: -0.8rem;
+  left: 320px;
+  width: 10rem;
+  height: 2rem;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.education-item::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 404px;
+  width: 1px;
+  height: 100%;
+  background-color: grey;
+}
+
+.title-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.experience-body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

@@ -1,0 +1,21 @@
+.programming {
+  text-align: start;
+  padding-left: 20px;
+}
+
+.al-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.grid-item {
+  padding: 10px;
+  margin: 10px;
+}
+
+.grid-item i {
+  color: grey;
+}
