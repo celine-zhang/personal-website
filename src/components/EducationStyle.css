@@ -39,7 +39,7 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1250px) {
   .education-timeline {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -60,5 +60,17 @@
   .education-item h4,
   .education-item h5 {
     font-size: 1rem;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .education-timeline {
+    grid-template-columns: 1fr;
+  }
+  .education-item h4,
+  .education-item h5 {
+    font-size: 0.8rem;
+    margin: 0;
   }
 }

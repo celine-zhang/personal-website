@@ -10,7 +10,7 @@ function Skills() {
           return (
             <div className="grid-item">
               {" "}
-              <i class={item.cName}></i>
+              <i className={item.cName}></i>
               <h3>{item.name}</h3>
             </div>
           );
