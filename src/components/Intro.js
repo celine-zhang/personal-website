@@ -11,7 +11,7 @@ function Intro() {
         <div className="profile-image-container">
           <img className="profile-image" src={PersonalImg} alt="img" />
         </div>
-        <div className="intro-text">
+        <div className="intro-text" id="contact">
           <div className="description">
             Currently seeking for a 2024 Summer Intern as a Web Developer.
             Looking forward to positions as Front-end Developer or Back-end
