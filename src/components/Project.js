@@ -21,12 +21,14 @@ function Project() {
           heading="Kattie"
           image={proKattie}
           text="Implemented CRUD features"
+          weburl="https://kattiecatmmunity.netlify.app/"
           githuburl="https://github.com/celine-zhang/Kattie-Catmmunity"
         />
         <ProjectData
           heading="Todo List"
           image={proTodo}
           text="Implemented CRUD features"
+          weburl="https://todolist0381.netlify.app/"
           githuburl="https://github.com/celine-zhang/WebDeveloper-todolist"
         />
       </div>
