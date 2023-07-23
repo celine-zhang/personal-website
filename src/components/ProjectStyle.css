@@ -1,9 +1,9 @@
-.moment {
+.project {
   margin: 4rem 6rem;
   color: #2a2a2a;
 }
 
-.momentCard {
+.projectCard {
   margin-top: 3rem;
   display: flex;
   justify-content: space-between;
@@ -45,14 +45,23 @@
 }
 
 @media screen and (max-width: 850px) {
-  .trip {
-    margin: 4rem 2rem;
-  }
-  .momentCard {
+  .projectCard {
     flex-direction: column;
   }
   .m-card {
     width: 100%;
     margin-bottom: 1.5rem;
+  }
+  .m-href a {
+    margin: 5px;
+  }
+  .project {
+    margin: 2rem 3rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .project {
+    margin: 0;
   }
 }

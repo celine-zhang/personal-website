@@ -9,7 +9,9 @@ function ProTitle() {
   return (
     <div className="body">
       <div className="heading">
-        <img src={headImg} alt="new york" />
+        <div>
+          <img src={headImg} alt="new york" className="headingImg" />
+        </div>
         <Intro />
         <Experience />
         <Project />

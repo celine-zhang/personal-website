@@ -50,7 +50,14 @@ a:hover {
   .intro-detail {
     flex-direction: column;
   }
+
   .profile-image-container {
-    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+  }
+
+  .intro-text {
+    max-width: 100%;
   }
 }

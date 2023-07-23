@@ -32,7 +32,7 @@ function Experience() {
           companyName="Lalamove"
           companyLocation="Shenzhen, China"
           jobPosition="Data Analyst Intern"
-          jobDuration="May 2020 -- Sep 2020"
+          jobDuration="May 2020 - Sep 2020"
           jobDescription={[
             "Identified, tracked and resolved issues related to products, delivered data insights to drive decision-making, resulting in a 2% increase in respond rate and 3% improvement in pairing rate",
             "Processed collected data and provided price strategies for Fixed-Price Project, increasing orders by 30%",

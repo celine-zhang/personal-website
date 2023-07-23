@@ -6,10 +6,10 @@ import proTodo from "../assets/todolist.jpeg";
 
 function Project() {
   return (
-    <div className="moment" id="projects">
+    <div className="project" id="projects">
       <h1 className="title-text">Project</h1>
 
-      <div className="momentCard">
+      <div className="projectCard">
         <ProjectData
           heading="YelpCamp"
           image={proYelp}
