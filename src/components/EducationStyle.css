@@ -13,6 +13,7 @@
 .education-item::before {
   content: attr(data-year);
   position: absolute;
+  font-size: 1rem;
   top: 0.5rem;
   left: 320px;
   width: 10rem;
@@ -36,7 +37,6 @@
 
 .title-text {
   text-align: center;
-  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 1250px) {
