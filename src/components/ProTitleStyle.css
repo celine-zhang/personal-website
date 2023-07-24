@@ -19,6 +19,14 @@
   padding: 1rem 0 1rem 0;
   font-size: 3rem;
 }
+.resumeButton {
+  background-color: #cfd8dc;
+  transition: 0.3s ease-in-out;
+}
+.resumeButton:hover {
+  border: none;
+  background-color: #607d8b;
+}
 
 @media (max-width: 768px) {
   .headingImg {

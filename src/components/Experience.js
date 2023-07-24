@@ -5,17 +5,15 @@ function Experience() {
   return (
     <div className="experience-container" id="experience">
       <h1 className="title-text">Experience</h1>
-      <div className="experience-body">
+      <div className="experience-body row">
         <ExperienceData
           companyName="SF Express"
           companyLocation="Shenzhen, China"
           jobPosition="Data Scientist II"
           jobDuration="Mar 2021 - Jul 2023"
           jobDescription={[
-            "Designed user-centric strategies for clustered groups, resulting in a monthly revenue growth of 100M",
-            "Utilized Tableau and HiveSQL to automate daily income reporting for 45 departments and stakeholders",
-            "Developed a customer profiling system based on customer behavior,leveraging business insights to target specific user segments;utilized return-on-investment analysis to tailor personalized campaigns",
-            "Spearheaded a Coupon System to automate sending coupons to target groups with the collaboration of 3 departments, successfully reducing weekly deployment time from 20 hours to 10 hours",
+            "Created customized marketing strategies for 1 million business-users, leveraging customers' behavior and profiles, leading to a remarkable monthly revenue growth of 100M",
+            "Developed three automated components for the team: daily income reporting, monthly marketing campaign deployment, and weekly coupon sending, resulting in a 10-hour reduction in weekly working time",
           ]}
         />
         <ExperienceData
@@ -24,7 +22,7 @@ function Experience() {
           jobPosition="Data Analyst Intern"
           jobDuration="Nov 2020 - Dec 2021"
           jobDescription={[
-            "Developed an administrator system to evaluate and assess the performance of music groups by SQL",
+            "Developed an administrative system using SQL to evaluate and assess the performance of music groups, empowering marketing department with valuable insights for targeted resource allocation",
             "Leveraged K-means analysis on historical data of superstar birthday topic groups to predict future page views and strategically set support tasks, driving a remarkable 26% ROI growth",
           ]}
         />
@@ -34,8 +32,8 @@ function Experience() {
           jobPosition="Data Analyst Intern"
           jobDuration="May 2020 - Sep 2020"
           jobDescription={[
-            "Identified, tracked and resolved issues related to products, delivered data insights to drive decision-making, resulting in a 2% increase in respond rate and 3% improvement in pairing rate",
             "Processed collected data and provided price strategies for Fixed-Price Project, increasing orders by 30%",
+            "Identified, tracked and resolved issues related to products, delivered data insights to drive decision-making, resulting in a 2% increase in respond rate and 3% improvement in pairing rate",
           ]}
         />
       </div>

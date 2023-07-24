@@ -6,7 +6,7 @@ const DownloadResumeButton = () => {
   };
 
   return (
-    <button onClick={handleDownload} className="btn btn-secondary mt-3">
+    <button onClick={handleDownload} className="btn mt-3 resumeButton">
       Download Resume
     </button>
   );

@@ -11,7 +11,7 @@ function ProjectData(props) {
       <div className="m-href">
         <a
           href={props.weburl}
-          class="btn btn-primary btn-sm active"
+          class="btn btn-primary btn-sm active projectButton"
           role="button"
           aria-pressed="true"
         >
@@ -19,7 +19,7 @@ function ProjectData(props) {
         </a>
         <a
           href={props.githuburl}
-          class="btn btn-primary btn-sm active"
+          class="btn btn-primary btn-sm active projectButton"
           role="button"
           aria-pressed="true"
         >

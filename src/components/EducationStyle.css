@@ -25,6 +25,7 @@
   align-items: center;
   border-radius: 10px;
 }
+
 .education-item::after {
   content: "";
   position: absolute;
