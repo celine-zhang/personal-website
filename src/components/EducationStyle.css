@@ -52,7 +52,7 @@
   .education-item::before {
     top: -2rem;
     left: 50%;
-    transform: translateX(-50%); /* 通过偏移来水平居中 */
+    transform: translateX(-50%);
   }
 
   .education-item::after {
