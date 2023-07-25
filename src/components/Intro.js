@@ -1,6 +1,7 @@
 import "./IntroStyle.css";
-import PersonalImg from "../assets/introImg.jpeg";
+import PersonalImg from "../assets/resume.jpeg";
 import DownloadResumeButton from "./DownloadResumeButton";
+import { Divider } from "@mui/material";
 function Intro() {
   return (
     <div className="intro-container">

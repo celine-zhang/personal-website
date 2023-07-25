@@ -5,7 +5,7 @@ function Experience() {
   return (
     <div className="experience-container" id="experience">
       <h1 className="title-text">Experience</h1>
-      <div className="experience-body row">
+      <div className="experience-body">
         <ExperienceData
           companyName="SF Express"
           companyLocation="Shenzhen, China"

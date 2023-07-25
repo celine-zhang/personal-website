@@ -10,6 +10,7 @@ export const SkillsData = [
   { name: "Express.js", cName: "fab fa-js fa-7x" },
   { name: "MongoDB", cName: "fas fa-server fa-7x" },
   { name: "Bootstrap", cName: "fa-brands fa-bootstrap fa-7x" },
+  { name: "Material-UI", cName: "fas fa-mobile fa-7x" },
   { name: "Python", cName: "fab fa-python fa-7x" },
   { name: "SQL", cName: "fas fa-database fa-7x" },
   { name: "R", cName: "fab fa-r-project fa-7x" },

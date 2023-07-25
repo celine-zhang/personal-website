@@ -1,5 +1,6 @@
 import { Component } from "react";
 import "./NavbarStyle.css";
+import PersonalImg from "../assets/resume.jpeg";
 import { Link } from "react-router-dom";
 import { MenuItems } from "./MenuItems";
 import HomeIcon from "@mui/icons-material/Home";
@@ -13,7 +14,7 @@ class Navbar extends Component {
     return (
       <nav className="NavbarItems">
         <h1 className="navbar-logo">
-          <HomeIcon />{" "}
+          <HomeIcon />
         </h1>
         <div className="menu-icons" onClick={this.handleClick}>
           <i
