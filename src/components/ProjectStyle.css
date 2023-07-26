@@ -6,6 +6,7 @@
 .projectCard {
   margin-top: 3rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -38,6 +39,9 @@
 .m-card h4 {
   font-size: 1.3rem;
   padding: 0.9rem 0 0.2rem 0;
+}
+.m-card p {
+  text-align: start;
 }
 
 .m-href a {
