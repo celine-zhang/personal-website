@@ -36,7 +36,7 @@ function Project() {
           heading="HangOut"
           image={proHangOut}
           text="It's a social media web app where users can publish post and comments and manage their relationship list"
-          weburl=""
+          weburl="https://hangoutnow.netlify.app/"
           githuburl="https://github.com/celine-zhang/hangOutApp"
         />
       </div>
