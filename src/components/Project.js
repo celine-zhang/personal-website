@@ -19,6 +19,13 @@ function Project() {
           githuburl="https://github.com/celine-zhang/WebDeveloper-YelpCamp"
         />
         <ProjectData
+          heading="HangOut"
+          image={proHangOut}
+          text="It's a social media web app where users can publish post and comments and manage their relationship list"
+          weburl="https://hangoutnow.netlify.app/"
+          githuburl="https://github.com/celine-zhang/hangOutApp"
+        />
+        <ProjectData
           heading="Kattie"
           image={proKattie}
           text="It's a web application with a responsive layout for users to publish post of cats."
@@ -31,13 +38,6 @@ function Project() {
           text="It's a todo list web app to support users to record their daily todos"
           weburl="https://todolist0381.netlify.app/"
           githuburl="https://github.com/celine-zhang/WebDeveloper-todolist"
-        />
-        <ProjectData
-          heading="HangOut"
-          image={proHangOut}
-          text="It's a social media web app where users can publish post and comments and manage their relationship list"
-          weburl="https://hangoutnow.netlify.app/"
-          githuburl="https://github.com/celine-zhang/hangOutApp"
         />
       </div>
     </div>
