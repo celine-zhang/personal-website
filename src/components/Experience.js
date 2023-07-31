@@ -12,8 +12,9 @@ function Experience() {
           jobPosition="Data Scientist II"
           jobDuration="Mar 2021 - Jul 2023"
           jobDescription={[
-            "Created customized marketing strategies for 1 million business-users, leveraging customers' behavior and profiles, leading to a remarkable monthly revenue growth of 100M",
-            "Developed three automated components for the team: daily income reporting, monthly marketing campaign deployment, and weekly coupon sending, resulting in a 10-hour reduction in weekly working time",
+            "Drove customer segmentation by analyzing behaviors and demographics to execute monthly marketing campaigns for a user base of 1M over two years, resulting in a monthly of revenue growth of 100M",
+            "Utilized Tableau and HiveSQL to automate daily income reporting for 45 departments and stakeholders",
+            "Developed user labels through User Behavior Analysis and spearheaded a cross-functional project with 3 departments to automate coupon distributions to target groups based on these labels, reducing 10 hours/week of workload for the team",
           ]}
         />
         <ExperienceData
@@ -22,8 +23,8 @@ function Experience() {
           jobPosition="Data Analyst Intern"
           jobDuration="Nov 2020 - Dec 2021"
           jobDescription={[
-            "Developed an administrative system using SQL to evaluate and assess the performance of music groups, empowering marketing department with valuable insights for targeted resource allocation",
-            "Leveraged K-means analysis on historical data of superstar birthday topic groups to predict future page views and strategically set support tasks, driving a remarkable 26% ROI growth",
+            "Designed a comprehensive group rating system that evaluated performances of music groups by using key metrics from characteristics of high-quality groups, leading to a 7% increase in engagement rate",
+            "Implemented a loyalty program with tiered rewards on target groups, identified the group category by K-means and set tasks' thresholds by analyzing past data from same categories, driving a 26% ROI growth",
           ]}
         />
         <ExperienceData
@@ -33,7 +34,7 @@ function Experience() {
           jobDuration="May 2020 - Sep 2020"
           jobDescription={[
             "Processed collected data and provided price strategies for Fixed-Price Project, increasing orders by 30%",
-            "Identified, tracked and resolved issues related to products, delivered data insights to drive decision-making, resulting in a 2% increase in respond rate and 3% improvement in pairing rate",
+            "Provided data analysis reports on user journey for new features using Funnel Analysis, resulting in a 2% increase in conversion rate after optimization",
           ]}
         />
       </div>
