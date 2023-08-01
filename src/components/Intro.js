@@ -24,7 +24,7 @@ function Intro() {
 
           <div className="email">
             <i className="fa-regular fa-envelope"></i>
-            <a href="mailto:zhang.xinli@northeastern.edu">
+            <a href="mailto:xinlin.zhang@columbia.edu">
               xinlin.zhang@columbia.edu
             </a>
           </div>
