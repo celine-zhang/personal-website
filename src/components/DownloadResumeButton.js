@@ -1,7 +1,7 @@
 const DownloadResumeButton = () => {
   const handleDownload = () => {
     const resumeUrl =
-      "https://drive.google.com/file/d/1U8kfJG8rWwDn2qQt8yKkDwNqTwQ0fp-2/view?usp=sharing";
+      "https://drive.google.com/file/d/1xF3fjOLPZF-ZANtvDBefJNurF67jg71u/view?usp=sharing";
     window.open(resumeUrl, "_blank");
   };
 
