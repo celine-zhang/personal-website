@@ -14,7 +14,7 @@ function Intro() {
         </div>
         <div className="intro-text" id="contact">
           <div className="description">
-            Currently seeking for a 2024 Summer Intern as a Web Developer.
+            Currently seeking for a 2024 Summer Intern as a Software Engineer.
             Looking forward to positions as Front-end Developer or Back-end
             Developer.
           </div>

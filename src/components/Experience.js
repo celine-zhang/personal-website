@@ -21,7 +21,7 @@ function Experience() {
           companyName="TENCENT Music"
           companyLocation="Shenzhen, China"
           jobPosition="Data Analyst Intern"
-          jobDuration="Nov 2020 - Dec 2021"
+          jobDuration="Nov 2020 - Dec 2020"
           jobDescription={[
             "Designed a comprehensive group rating system that evaluated performances of music groups by using key metrics from characteristics of high-quality groups, leading to a 7% increase in engagement rate",
             "Implemented a loyalty program with tiered rewards on target groups, identified the group category by K-means and set tasks' thresholds by analyzing past data from same categories, driving a 26% ROI growth",
