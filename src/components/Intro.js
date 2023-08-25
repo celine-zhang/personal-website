@@ -17,10 +17,11 @@ function Intro() {
             I used to be a Data Scientist with a proven track record in driving
             business growth through data-driven insights. Led cross-functional
             projects, applying strong collaboration skills to automate processes
-            and optimize team efficiency. Complemented by technical projects
-            showcasing software engineering capabilities. Currently seeking for
-            a 2024 Summer Intern as a Software Engineer to leverage analytical
-            expertise and passion for technology.
+            and optimize team efficiency. My tenure in data science ignited a
+            fascination with software engineering, inspiring me to independently
+            pursue and complete various technical projects. Currently seeking
+            for a 2024 Summer Intern as a Software Engineer to leverage
+            analytical expertise and passion for technology.
           </div>
           <div className="location">
             <i class="fa-solid fa-location-dot"></i> Boston, MA
