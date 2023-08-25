@@ -14,16 +14,13 @@ function Intro() {
         </div>
         <div className="intro-text" id="contact">
           <div className="description">
-            Experienced Data Scientist with a proven track record in driving
-            business growth through data-driven insights. Expertise in customer
-            segmentation, data analysis, and marketing campaign execution,
-            resulting in a monthly revenue increase of 100M. Led
-            cross-functional projects, applying strong collaboration skills to
-            automate processes and optimize team efficiency. Committed to
-            adaptability and driven problem-solving. Complemented by technical
-            projects showcasing software engineering capabilities. Currently
-            seeking for a 2024 Summer Intern as a Software Engineer to leverage
-            analytical expertise and passion for technology..
+            I used to be a Data Scientist with a proven track record in driving
+            business growth through data-driven insights. Led cross-functional
+            projects, applying strong collaboration skills to automate processes
+            and optimize team efficiency. Complemented by technical projects
+            showcasing software engineering capabilities. Currently seeking for
+            a 2024 Summer Intern as a Software Engineer to leverage analytical
+            expertise and passion for technology.
           </div>
           <div className="location">
             <i class="fa-solid fa-location-dot"></i> Boston, MA
