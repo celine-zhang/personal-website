@@ -14,9 +14,16 @@ function Intro() {
         </div>
         <div className="intro-text" id="contact">
           <div className="description">
-            Currently seeking for a 2024 Summer Intern as a Software Engineer.
-            Looking forward to positions as Front-end Developer or Back-end
-            Developer.
+            Experienced Data Scientist with a proven track record in driving
+            business growth through data-driven insights. Expertise in customer
+            segmentation, data analysis, and marketing campaign execution,
+            resulting in a monthly revenue increase of 100M. Led
+            cross-functional projects, applying strong collaboration skills to
+            automate processes and optimize team efficiency. Committed to
+            adaptability and driven problem-solving. Complemented by technical
+            projects showcasing software engineering capabilities. Currently
+            seeking for a 2024 Summer Intern as a Software Engineer to leverage
+            analytical expertise and passion for technology..
           </div>
           <div className="location">
             <i class="fa-solid fa-location-dot"></i> Boston, MA
@@ -27,6 +34,11 @@ function Intro() {
             <a href="mailto:xinlin.zhang@columbia.edu">
               xinlin.zhang@columbia.edu
             </a>
+          </div>
+
+          <div className="phone">
+            <i class="fa-solid fa-phone"></i>
+            <a href="#">(781) 350-6528</a>
           </div>
 
           <div className="github">
