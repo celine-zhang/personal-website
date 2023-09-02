@@ -14,15 +14,22 @@ function Intro() {
         </div>
         <div className="intro-text" id="contact">
           <div className="description">
-            I used to be a Data Scientist with a proven track record in driving
+            Hi there! I am Xinlin Zhang, a student at Northeastern University. I
+            used to be a Data Scientist with a proven track record in driving
             business growth through data-driven insights. Led cross-functional
-            projects, applying strong collaboration skills to automate processes
-            and optimize team efficiency. My tenure in data science ignited a
-            fascination with software engineering, inspiring me to independently
-            pursue and complete various technical projects. Currently seeking
-            for a 2024 Summer Intern as a Software Engineer to leverage
+            projects, applying ideas to automate working processes and optimize
+            team efficiency. During that period, the deep collaboration with
+            Engineer team inspired me to independently pursue and complete
+            various technical projects. Currently seeking for a 2024 Summer
+            Intern as a <strong>Software Engineer </strong>to leverage
             analytical expertise and passion for technology.
+            <br></br>
+            <br></br>
+            In my personal life, I enjoy sharing good resturants on social
+            media. As a influencer, I am fortunate to have over 1500 followers
+            who appreciate my videos.
           </div>
+
           <div className="location">
             <i class="fa-solid fa-location-dot"></i> Boston, MA
           </div>
