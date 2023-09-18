@@ -21,9 +21,21 @@
 }
 .resumeButton {
   background-color: #cfd8dc;
+  margin-right: 3rem;
   transition: 0.3s ease-in-out;
+  width: 200px;
 }
 .resumeButton:hover {
+  border: none;
+  background-color: #607d8b;
+}
+
+.contactButton {
+  background-color: #cfd8dc;
+  transition: 0.3s ease-in-out;
+  width: 200px;
+}
+.contactButton:hover {
   border: none;
   background-color: #607d8b;
 }

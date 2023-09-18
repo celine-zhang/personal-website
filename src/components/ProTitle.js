@@ -13,10 +13,10 @@ function ProTitle() {
           <img src={headImg} alt="new york" className="headingImg" />
         </div>
         <Intro />
-        <Experience />
+        {/* <Experience /> */}
         <Project />
         <Skills />
-        <Education />
+        {/* <Education /> */}
       </div>
     </div>
   );

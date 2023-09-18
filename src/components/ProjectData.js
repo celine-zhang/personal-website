@@ -7,23 +7,23 @@ function ProjectData(props) {
         <img src={props.image} alt="image" />
       </div>
       <h4>{props.heading}</h4>
-      <p>{props.text}</p>
+      <p className="m-text">{props.text}</p>
       <div className="m-href">
         <a
           href={props.weburl}
-          class="btn btn-primary btn-sm active projectButton"
+          class="btn btn-sm projectButton"
           role="button"
           aria-pressed="true"
         >
-          View Website
+          <i class="fa-solid fa-link"></i>Live Demo
         </a>
         <a
           href={props.githuburl}
-          class="btn btn-primary btn-sm active projectButton"
+          class="btn btn-sm projectButton"
           role="button"
           aria-pressed="true"
         >
-          View Github
+          <i class="fa-brands fa-github"></i> Code
         </a>
       </div>
     </div>
