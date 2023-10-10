@@ -41,15 +41,15 @@ function Intro() {
           <div className="email">
             <i className="fa-regular fa-envelope"></i>
             <> </>
-            <a href="mailto:xinlin.zhang@columbia.edu">
-              xinlin.zhang@columbia.edu
+            <a href="mailto:xinlinzhang938@gmail.com">
+              xinlinzhang938@gmail.com
             </a>
           </div>
 
           <div className="phone">
             <i class="fa-solid fa-phone"></i>
             <> </>
-            <a href="#">(781) 350-6528</a>
+            <a href="#">(781)350-6528</a>
           </div>
 
           <div className="github">
